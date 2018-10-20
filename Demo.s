@@ -1,0 +1,2 @@
+VARS A="HELLO"
+PRINT A
