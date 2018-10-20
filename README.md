@@ -15,7 +15,7 @@ More instructions are yet to be added, you can check out availabe instructions a
 As of now, the machine can perfrom PUSH, POP, STORE, Store string, all arithmetic and bitwise operations, control and looping structures will be implemented later.
 
 Example program :
-
+```
 VAR A=10.0
 VAR B=20.0
 PUSH A
@@ -23,6 +23,7 @@ PUSH B
 ADD
 STORE C
 PRINT C
+```
 
 The above program, creates 2 variables A = 10 and B = 20, the next 2 instructions are used to push A and B onto stack. All arithmetic operations operate on elements on top of stack, by default we pop contents and push the result. You can use NADD, NSUB, NDIV, NMUL, NMOD to retain the contents of stack, (avoid pop).
 
@@ -31,12 +32,14 @@ PRINT C will print the content of variable C
 
 Example program 2  : Arrays 
 
+```
 VARA A=10,20,30,40,
 PUSH A:1
 PUSH A:2
 AND
 STORE C
 PRINT C
+```
 
 The above program, decalres an array A = 10, 20, 30, 40
 PUSH instructions are used to push 20 i.e index 1 and 30 i.e index 2 into CPU Stack
@@ -45,9 +48,10 @@ SOTRE and PRINT are explained in previous example.
 
 
 Example program 3 : Strings
-
+```
 VARS S="Hello"
 PRINT S
+```
 
 The above program creates a string "Hello" with label S
 Prints "Hello"
