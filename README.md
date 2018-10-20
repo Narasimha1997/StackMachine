@@ -55,3 +55,9 @@ PRINT S
 
 The above program creates a string "Hello" with label S
 Prints "Hello"
+
+To Test , Run ->
+
+```
+java -jar StackMachine.jar your-file.s
+```
